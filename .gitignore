@@ -1,0 +1,11 @@
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+
+/storage/*
+!/storage/app/
+!/storage/app/chat/
+!/storage/app/chat/default_settings.json
+
+!/storage/app/public/
+!/storage/app/public/optionbuilder/
+!/storage/app/public/optionbuilder/uploads/
