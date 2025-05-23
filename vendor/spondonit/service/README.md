@@ -1,4 +1,4 @@
-# Spondon IT Service
+# LDG VENTURES IT Service
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spondonit/service.svg?style=flat-square)](https://packagist.org/packages/spondonit/service)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -16,11 +16,11 @@
 
 ## Credits
 
-- [spondonit](https://spondonit.com)
+- [LDG VENTURES](https://grpro.in)
 
-## About Spondon IT
+## About LDG VENTURES IT
 
-Spondon IT is a web development company which is specialising on the Laravel framework.
+LDG VENTURES IT is a web development company which is specialising on the Laravel framework.
 
 
 ## License

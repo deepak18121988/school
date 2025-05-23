@@ -8953,8 +8953,8 @@
             ],
             "authors": [
                 {
-                    "name": "SpondonIt",
-                    "email": "support@spondonit.com"
+                    "name": "LDG VENTURES",
+                    "email": "info@grpro.in"
                 }
             ],
             "description": "RaudhahPay Gateway wrapper client",
@@ -9012,8 +9012,8 @@
             ],
             "authors": [
                 {
-                    "name": "spondonit",
-                    "email": "hello@spondonit.com"
+                    "name": "LDG VENTURES",
+                    "email": "info@grpro.in"
                 }
             ],
             "description": "'Service Provider for Infix School application'",
@@ -9059,11 +9059,11 @@
             ],
             "authors": [
                 {
-                    "name": "spondonit",
-                    "email": "hello@spondonit.com"
+                    "name": "LDG VENTURES",
+                    "email": "info@grpro.in"
                 }
             ],
-            "description": "Basic Service Provider for Spondonit application",
+            "description": "Basic Service Provider for LDG VENTURES application",
             "support": {
                 "issues": "https://gitlab.com/spn4/service/-/issues",
                 "source": "https://gitlab.com/spn4/service/-/tree/v4.0.53"
@@ -9107,8 +9107,8 @@
             ],
             "authors": [
                 {
-                    "name": "Spondonit",
-                    "email": "support@spondonit.com"
+                    "name": "LDG VENTURES",
+                    "email": "info@grpro.in"
                 }
             ],
             "description": "A developer-experience focused HTTP client, optimized for most common use cases.",
