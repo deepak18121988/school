@@ -588,7 +588,7 @@ return array(
     'Video Gallery' => 'Video Gallery',
     'Photo Gallery' => 'Photo Gallery',
     'Expert Teacher' => 'Expert Teacher',
-    'Aora Pagebuilder' => 'Aora Pagebuilder',
+    'Aora Pagebuilder' => 'GR Pagebuilder',
     'Home Slider' => 'Home Slider',
     'Update General Settings Data' => 'Update General Settings Data',
     'Form Download' => 'Form Download',

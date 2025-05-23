@@ -218,7 +218,7 @@ return [
     'theme_based_pages' => 'Theme Based Pages',
     'not_found_data' => 'Not Found Data',
     'delete_expert_teacher' => 'Delete Expert Teacher',
-    'Aora Pagebuilder' => 'Aora Pagebuilder',
+    'Aora Pagebuilder' => 'GR Pagebuilder',
     'content_type' => 'Content Type',
     'file' => 'File',
     'speech' => 'Speech',

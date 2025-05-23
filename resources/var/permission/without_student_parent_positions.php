@@ -15926,7 +15926,7 @@
             'Aora_Pagebuilder' => array(
                 'module' => null,
                 'sidebar_menu' => 'front_setting',
-                'name' => 'Aora Pagebuilder',
+                'name' => 'GR Pagebuilder',
                 'lang_name' => 'front_settings.Aora Pagebuilder',
                 'icon' => null,
                 'svg' => null,
