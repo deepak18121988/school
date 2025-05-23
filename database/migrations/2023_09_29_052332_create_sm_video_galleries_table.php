@@ -26,21 +26,21 @@ return new class extends Migration
 
         DB::table('sm_video_galleries')->insert([
             [
-                'name' => "Science Fair",
-                'description' => "A showcase of student experiments and scientific discoveries",
-                'video_link' => "https://www.youtube.com/watch?v=4zR-uaZjZ2U",
+                'name' => "Annual Science Exhibition",
+                'description' => "Discover how our students bring science to life through hands-on experiments and innovative ideas.",
+                'video_link' => "",
                 'position' => 1,
             ],
             [
-                'name' => "Cultural Carnival",
-                'description' => "A lively celebration of diverse traditions, arts, and festivities.",
-                'video_link' => "https://www.youtube.com/watch?v=k61cLi1_Zd0&ab_channel=Infixdev",
+                'name' => "Cultural Day Highlights",
+                'description' => "A vibrant display of student performances celebrating culture, tradition, and school spirit.",
+                'video_link' => "",
                 'position' => 2,
             ],
             [
-                'name' => "Student Leadership Summit",
-                'description' => "Empowering future leaders through collaboration and inspiration.",
-                'video_link' => "https://www.youtube.com/watch?v=4zR-uaZjZ2U&ab_channel=Infixdev",
+                'name' => "Student Council Meet",
+                'description' => "Showcasing student leadership, teamwork, and the voices that shape our school community.",
+                'video_link' => "",
                 'position' => 3,
             ],
         ]);

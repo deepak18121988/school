@@ -9,12 +9,12 @@ return [
     
     
     @package larabuild/pagebuilder
-    @author  Amento Tech <info@amentotech.com>
-    @license https://amentotech.com/
-    @link    https://amentotech.com/
+    @author  Amento Tech <info@grpro.in>
+    @license https://grpro.in/
+    @link    https://grpro.in/
     */
 
-    'product_name'                                      => 'AoraBuilder',
+    'product_name'                                      => 'GRBuilder',
     'the_page_builder'                                  => 'The page builder',
     'select'                                            => 'Select',
     'asc'                                               => 'Asc',

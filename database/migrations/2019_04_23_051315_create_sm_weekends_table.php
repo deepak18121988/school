@@ -32,49 +32,49 @@ class CreateSmWeekendsTable extends Migration
 
         DB::table('sm_weekends')->insert([
             [
-                'name' => 'Saturday',
+                'name' => 'Monday',
                 'order' => 1,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Sunday',
+                'name' => 'Tuesday',
                 'order' => 2,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Monday',
+                'name' => 'Wednesday',
                 'order' => 3,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Tuesday',
+                'name' => 'Thursday',
                 'order' => 4,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Wednesday',
+                'name' => 'Friday',
                 'order' => 5,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Thursday',
+                'name' => 'Saturday',
                 'order' => 6,
                 'is_weekend' => 0,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'name' => 'Friday',
+                'name' => 'Sunday',
                 'order' => 7,
                 'is_weekend' => 1,
                 'created_at' => date('Y-m-d H:i:s'),

@@ -48,23 +48,23 @@ class CreateSmNewsTable extends Migration
         $cid=[1,1,1,1,2,2,2,2,3,3,3,3];
         foreach (range(1,12) as $key=>$index) {
             $storeData = new SmNews();
-            if($key == 0){
-                $storeData->news_title = "Digital Transformation in Education: GRpro Paving the Way";
-                $storeData->news_body = "As the education landscape continues to evolve, GRpro remains at the forefront of digital transformation. In this blog post, we explore how GRpro's innovative school management system is not just adapting to change but actively shaping the future of education. From online assessments to parent-teacher communication tools, discover the key elements driving this digital revolution in schools.";
-            }elseif($key == 1){
-                $storeData->news_title = "Success Stories: How GRpro ERP Empowers Schools Worldwide";
-                $storeData->news_body = "In this blog series, we highlight success stories from schools around the globe that have embraced GRpro's school management system. From improving communication between stakeholders to boosting overall efficiency, these stories provide insights into the transformative impact of GRpro's technology. Join us in celebrating the achievements of schools that have elevated their educational experience with GRpro.";
-            }elseif($key == 2){
-                $storeData->news_title = "GRpro Launches Enhanced Features for a Seamless School Year";
-                $storeData->news_body = "In a recent update, GRpro, the leading school management system provider, unveiled a set of enhanced features aimed at optimizing administrative processes and fostering a smoother school year. From streamlined enrollment procedures to advanced reporting tools, schools can now benefit from an even more comprehensive and user-friendly platform. Read more to discover how these updates can positively impact your institution.";
-            }else{
+            if ($key == 0) {
+                $storeData->news_title = "Empowering Classrooms with Smart School Technology";
+                $storeData->news_body = "Discover how modern school management tools are transforming traditional classrooms. GRpro helps educators focus more on teaching by automating attendance, assignments, and communication. Explore how schools are embracing digital tools to create a more engaging and efficient learning environment.";
+            } elseif ($key == 1) {
+                $storeData->news_title = "Building Better Parent-Teacher Partnerships with GRpro";
+                $storeData->news_body = "Effective communication between schools and parents is essential for student success. GRpro bridges this gap by offering real-time updates on attendance, grades, and school activities. Learn how this technology is strengthening trust and transparency across school communities.";
+            } elseif ($key == 2) {
+                $storeData->news_title = "Simplifying School Operations: GRpro in Action";
+                $storeData->news_body = "From admissions to report cards, school administration can be complex. GRpro simplifies day-to-day tasks with user-friendly tools for teachers, staff, and administrators. Read how schools are saving time and improving accuracy with GRpro's all-in-one ERP solution.";
+            } else {
                 $storeData->news_title = $faker->text(40);
                 $storeData->news_body = $faker->text(500);
             }
             $storeData->view_count = $faker->randomDigit;
             $storeData->active_status = 1;
             $storeData->image = 'public/uploads/news/news'.$i.'.jpg';
-            $storeData->publish_date = '2019-06-02';
+            $storeData->publish_date = '2024-06-02';
             $storeData->category_id = $cid[$i-1];
             $storeData->order =$i++;
             $storeData->created_at = date('Y-m-d h:i:s');
