@@ -45,7 +45,7 @@ return new class extends Migration
 
         // Content For Demo Data Start
         $bloodgroup = SmBaseSetup::where('base_group_id', '=', '3')->where('base_setup_name', 'A+')->first();
-        $religion = SmBaseSetup::where('base_group_id', '=', '2')->where('base_setup_name', 'Islam')->first();
+        $religion = SmBaseSetup::where('base_group_id', '=', '2')->where('base_setup_name', 'Hinduism')->first();
         $gender = SmBaseSetup::where('base_group_id', '=', '1')->where('base_setup_name', 'Male')->first();
         $datas = [
             ['Ramesh Khatri', 'Doctor', date("Y-m-d", strtotime('1990-12-12')), "rameshkhatri@grpro.in", '+91 123456789', $bloodgroup->id, $religion->id, $gender->id],
