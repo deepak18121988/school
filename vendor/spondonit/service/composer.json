@@ -1,11 +1,11 @@
 {
     "name": "spondonit/service",
-    "description": "Basic Service Provider for Spondonit application",
+    "description": "Basic Service Provider for LDG VENTURES application",
     "type": "library",
     "license": "MIT",
     "authors": [{
-        "name": "spondonit",
-        "email": "hello@spondonit.com"
+        "name": "LDG VENTURES",
+        "email": "info@grpro.in"
     }],
     "require": {},
     "autoload": {

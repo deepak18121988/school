@@ -1,6 +1,6 @@
 {
     "name": "spondonit/school-service",
-    "description": "'Service Provider for Infix School application'",
+    "description": "'Service Provider for GRpro School application'",
     "type": "library",
     "require": {
         "spondonit/service": "dev-master"
@@ -8,8 +8,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "spondonit",
-            "email": "hello@spondonit.com"
+            "name": "LDG VENTURES",
+            "email": "info@grpro.in"
         }
     ],
     "minimum-stability": "dev",

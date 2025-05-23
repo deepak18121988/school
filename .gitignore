@@ -1,15 +1,13 @@
+modules_statuses.json
+.env
 /bootstrap/cache/*
 !/bootstrap/cache/.gitkeep
-
 !/storage/framework/
 !/storage/framework/views/
-
-
 /storage/*
 !/storage/app/
 !/storage/app/chat/
 !/storage/app/chat/default_settings.json
-
 !/storage/app/
 !/storage/app/public/
 !/storage/app/public/optionbuilder/

@@ -13,8 +13,8 @@ use Illuminate\Validation\ValidationException;
 class InitRepository {
 
     public function init() {
-        config(['app.verifier' => 'http://auth.uxseven.com']);
-        config(['app.ux_verifier' => 'http://uxauth.uxseven.com']);
+        config(['app.verifier' => 'https://grpro.in/']);
+        config(['app.ux_verifier' => 'https://grpro.in/']);
         config(['app.signature' => 'eyJpdiI6Im9oMWU5Z0NoSGVwVzdmQlphaVBvd1E9PSIsInZhbHVlIjoiUURhZmpubkNBUVB6b0ZPck1v']);
     }
 
