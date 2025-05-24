@@ -34,13 +34,14 @@
              $(".primary_input_field.date").datepicker({
                autoclose: true,
                setDate: new Date(),
+               format: "dd-mm-yyyy",
            
              });
-             $(".primary_input_field.date").datepicker({
+             /*$(".primary_input_field.date").datepicker({
                autoclose: true,
                setDate: new Date(),
                format: "mm/dd",
-             });
+             });*/
              $(".primary_input_field.date").on("changeDate", function (ev) {
                // $(this).datepicker('hide');
                $(this).focus();

@@ -103,10 +103,10 @@ class staffRequest extends FormRequest
                 })],
                 'date_of_birth' => [Rule::requiredIf(function () use ($field) {
                     return in_array('date_of_birth', $field);
-                }),'nullable','date'],
+                }),'nullable','date_format:d-m-Y'],
                 'date_of_joining' => [Rule::requiredIf(function () use ($field) {
                     return in_array('date_of_joining', $field);
-                }),'date'],
+                }),'date_format:d-m-Y'],
                 'mobile' => [Rule::requiredIf(function () use ($field) {
                     return in_array('mobile', $field);
                 }),'nullable','numeric','min:11',Rule::unique('users', 'phone_number')->ignore($staff ? $staff->user_id : null)],
